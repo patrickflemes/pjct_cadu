@@ -61,6 +61,7 @@ view: fact_tickets {
     timeframes: [raw, time, date, week, month, quarter, year]
     datatype: datetime
     sql: ${TABLE}.last_assigned_at ;;
+    convert_tz: no
   }
   dimension: last_assigned_by_user_id {
     type: number
@@ -86,6 +87,7 @@ view: fact_tickets {
     type: time
     timeframes: [raw, time, date, week, month, quarter, year]
     datatype: datetime
+    convert_tz: no
     sql: ${TABLE}.ticket_created_at ;;
   }
   dimension_group: ticket {
