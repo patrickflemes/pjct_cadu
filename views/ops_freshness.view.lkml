@@ -1,5 +1,5 @@
 view: ops_freshness {
-  sql_table_name: `ixcsoft-data-dev.ops_cadu.ops_freshness` ;;
+  sql_table_name: `ixcsoft-data-prod.ops_cadu.ops_freshness` ;;
 
   dimension: table_name {
     type: string

@@ -1,5 +1,5 @@
 view: fact_cost_by_profile_daily {
-  sql_table_name: `ixcsoft-data-dev.gold_cadu.fact_cost_by_profile_daily` ;;
+  sql_table_name: `ixcsoft-data-prod.gold_cadu.fact_cost_by_profile_daily` ;;
 
   dimension: ticket_date {
     type: date

@@ -1,5 +1,5 @@
 view: fact_tickets_by_user_daily {
-  sql_table_name: `ixcsoft-data-dev.gold_cadu.fact_tickets_by_user_daily` ;;
+  sql_table_name: `ixcsoft-data-prod.gold_cadu.fact_tickets_by_user_daily` ;;
 
   dimension: ticket_date {
     type: date

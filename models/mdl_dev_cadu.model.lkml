@@ -1,4 +1,4 @@
-connection: "conn_bigquery_dev"
+connection: "conn_bigquery_prod"
 
 include: "/views/**/*.view.lkml"
 
