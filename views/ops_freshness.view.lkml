@@ -13,6 +13,7 @@ view: ops_freshness {
     label: "Última Atualização"
     sql: ${TABLE}.last_updated_at ;;
     datatype: timestamp
+    convert_tz: no
   }
 
   dimension: row_count {

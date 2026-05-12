@@ -1,5 +1,5 @@
 view: fact_budget {
-  sql_table_name: `ixcsoft-data-dev.gold_cadu.fact_budget` ;;
+  sql_table_name: `ixcsoft-data-prod.gold_cadu.fact_budget` ;;
 
   dimension_group: budget {
     type: time
